@@ -33,7 +33,7 @@ os (for file handling)
 
 Clone or download this repository
 
-git clone https://github.com/yourusername/youtube-manager-cli.git
+git clone https://github.com/anuragsinghrajput123456789/Python_Projects/settings
 cd youtube-manager-cli
 
 
