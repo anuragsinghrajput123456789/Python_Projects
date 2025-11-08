@@ -1,115 +1,192 @@
-🎬 YouTube Manager CLI (Python)
+🐍 Anurag Singh — Python Projects Collection
 
-A simple command-line app to manage your favorite YouTube videos — add, update, delete, and list them easily!
-Data is saved locally in a .json or .txt file using Python’s built-in JSON module.
+Welcome to my Python Projects Repository, where I showcase various applications, automation scripts, and AI-powered tools built using Python 🧠.
+Each project is designed to strengthen my understanding of programming concepts, problem-solving, and real-world applications — from web apps and games to AI, data, and automation tools.
 
-🚀 Features
+🚀 Table of Contents
 
-📄 List All Videos — View all your saved YouTube videos in a clean formatted list
+🎮 Games & Fun Projects
 
-➕ Add Video — Add new videos with name and duration
+📊 Data & Excel Automation
 
-✏️ Update Video — Edit existing video details
+🌐 Web & API Projects
 
-🗑️ Delete Video — Remove videos by index
+🤖 AI & Machine Learning
 
-💾 Choose File Type — Save data as either .json or .txt
+⚙️ Setup Instructions
 
-⚡ Auto-Save — All changes are instantly saved
+📘 Learning Highlights
 
-🧱 Error-Handled — Fully protected from invalid inputs and file issues
+🧑‍💻 Author & Connect
 
-🧰 Tech Stack
+🎮 Games & Fun Projects
+🧩 Tic-Tac-Toe with AI
 
-Language: Python 3.x
+Built using tkinter GUI
 
-Libraries:
+Features AI opponent mode (computer uses simple logic to play optimally)
 
-json (for serialization)
+Stores user score in an Excel file using pandas
 
-os (for file handling)
+Beautiful UI with win/tie animations
 
-📦 Installation & Setup
+python tic_tac_toe.py
 
-Clone or download this repository
+📁 Tech Used: tkinter, pandas, random, openpyxl
 
-git clone https://github.com/anuragsinghrajput123456789/Python_Projects/settings
-cd youtube-manager-cli
+✊ Rock Paper Scissors
 
+Console-based fun game
 
-Run the program
+Tracks and saves player score dynamically
 
+Uses pandas to maintain a scoreboard
+
+Play until you choose to quit
+
+python rock_paper_scissors.py
+
+📁 Tech Used: random, pandas, time
+
+📊 Data & Excel Automation
+💰 Expense Splitter & Excel Export
+
+Takes rent, food, transport, and electricity expenses as input
+
+Calculates per-person cost and saves it into an Excel sheet
+
+Helps students or roommates manage shared expenses easily
+
+python expense_tracker.py
+
+📁 Tech Used: pandas, openpyxl, os
+
+📈 Data Cleaning & Analysis Utilities
+
+Includes common and reusable Python scripts for cleaning datasets
+
+Uses important pandas functions like:
+
+dropna(), fillna(), replace(), groupby(), describe()
+
+Helpful for ML preprocessing and analytics projects
+
+📁 Tech Used: pandas, numpy
+
+🌐 Web & API Projects
+⚡ FastAPI Demo App
+
+A simple backend built with FastAPI
+
+Routes: /, /contact, /about
+
+Returns JSON responses and easy to extend for API development
+
+uvicorn app:app --reload
+
+📁 Tech Used: fastapi, uvicorn, json
+
+🗂️ File Manager with Express & EJS (Python Integration)
+
+(Note: Hybrid Project)
+
+Python integrated with Node/Express for backend automation
+
+Handles file creation, type selection (PDF, DOC, TXT), and UI via EJS
+
+📁 Tech Used: express, ejs, fs, python-shell
+
+🤖 AI & Machine Learning
+🧠 Resume Analyzer (HireX - AI Resume Project)
+
+Uses Gemini API to analyze and score resumes (ATS Score)
+
+Provides suggestions for skill improvement and keyword optimization
+
+Built with Python backend + React frontend integration
+
+📁 Tech Used: Gemini API, FastAPI, React, TailwindCSS
+
+📄 Question Paper Generator (AI + Python)
+
+Uses Gemini API to generate exam-style question papers
+
+Can generate questions, solutions, and check user answers
+
+Allows users to add custom resources like courses, blogs, and links
+
+📁 Tech Used: Gemini API, Flask, React, TailwindCSS
+
+⚙️ Setup Instructions
+1️⃣ Clone the repository
+git clone https://github.com/anurag-singh/<repo-name>.git
+cd <repo-name>
+
+2️⃣ Create virtual environment
+python -m venv venv
+venv\Scripts\activate # Windows
+source venv/bin/activate # Mac/Linux
+
+3️⃣ Install dependencies
+pip install -r requirements.txt
+
+4️⃣ Run project
 python main.py
 
+📘 Learning Highlights
 
-On first run, you’ll be asked:
+Throughout these projects, I’ve explored:
 
-Choose file type to store data:
-1. JSON file (Recommended)
-2. TXT file
+✅ Object-Oriented Programming (OOP)
 
+✅ Working with APIs (FastAPI, Gemini AI)
 
-→ Choose your preferred option and start managing your videos!
+✅ File handling & data automation using Pandas
 
-🧭 Usage Guide
-Option	Description
-1	List all YouTube videos
-2	Add a new YouTube video
-3	Update existing video details
-4	Delete a YouTube video
-5	Exit the application
+✅ GUI creation using Tkinter
 
-Example interaction:
+✅ Building small AI logic (minimax, scoring systems)
 
-📺 Your Personal YouTube Manager
-========================================
-1️⃣  List All YouTube Videos
-2️⃣  Add a YouTube Video
-3️⃣  Update a YouTube Video
-4️⃣  Delete a YouTube Video
-5️⃣  Exit the Application
-========================================
-Enter your choice: 2
-Enter video name: Python Basics
-Enter video duration: 15min
-✅ Data saved successfully!
+✅ Integrating Python with JS for full-stack use cases
 
-🗂️ Data Storage
+🧑‍💻 Author & Connect
 
-Your data is stored in the same directory as:
+👨‍💻 Anurag Singh
+💡 MERN Stack Developer | Python & AI Enthusiast | Building HireX & Question Generator Apps
 
-youtube.json (default, recommended)
-or
+🔗 Connect With Me:
 
-youtube.txt (optional)
+🌐 GitHub
 
-Both files store structured JSON data, e.g.:
+💼 LinkedIn
 
-[
-  {"name": "Python Basics", "time": "15min"},
-  {"name": "DSA Crash Course", "time": "25min"}
-]
+🐦 Twitter (X)
 
-⚙️ Error Handling
+📧 Email: anuragsingh.dev@gmail.com
 
-Prevents crashes from invalid input
+🌟 Contributing
 
-Handles missing or corrupted files gracefully
+Contributions are always welcome!
 
-Uses .get() to avoid missing-key errors
+Fork this repository
 
-💡 Future Enhancements
+Create a new branch: git checkout -b feature-name
 
-Add video search/filter feature
+Commit your changes: git commit -m "Add feature"
 
-Export list to CSV or Excel
+Push and create a Pull Request 🚀
 
-Add a GUI version using Tkinter or PyQt
+🪪 License
 
-Integrate with YouTube API to fetch metadata automatically
+This repository is licensed under the MIT License.
+You’re free to use, modify, and distribute these projects with proper credit.
 
-🧑‍💻 Author
+🏷️ Tags
 
-Anurag Singh
-💼 100 Days of DSA & Projects Challenge
-📧 Reach out for feedback or suggestions!
+#Python #FastAPI #MachineLearning #DataScience #Automation #Tkinter #Flask #AI #ExcelAutomation #Projects
+
+Would you like me to:
+
+Generate this as a downloadable README.md file (ready to upload to your repo), and
+
+Auto-create individual mini-README templates for each of your Python projects (TicTacToe, RockPaperScissors, Expense Tracker, etc.)?
