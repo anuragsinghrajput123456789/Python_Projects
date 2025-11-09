@@ -15,7 +15,7 @@ root.resizable(False, False)
 # 🌈 Gradient Background Animation
 # ------------------------------
 colors = itertools.cycle(
-    [
+    [-
         "#0A0A0A",
         "#1B1B2F",
         "#16213E",
